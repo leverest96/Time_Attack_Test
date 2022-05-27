@@ -51,7 +51,7 @@ class Minesweeper
         } else {
             for (int i = x-1; i <= x+1; i++) {
                 for (int j = y-1; j <= y+1; j++) {
-                    if (i==-1 || j==-1) {
+                    if (i==-1 || j==-1 || i ==10 || j == 10) {
                         continue;
                     }else {
                         if (map[i][j] == 0 || map[i][j] == 2) {
