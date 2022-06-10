@@ -1,9 +1,3 @@
-public class InternetGateWay {
-    private int ID;
-    public InternetGateWay() {
+public class InternetGateWay implements GateWay {
 
-    }
-    public void setGateWay(InternetGateWay internetGateWay) {
-
-    }
 }

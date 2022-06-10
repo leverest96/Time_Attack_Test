@@ -4,8 +4,6 @@ public class Subnet {
     private String IP;
     private RouteTable routeTable;
 
-    public Subnet() {}
-
     public Subnet(int ID, String IP, String region) {
         this.ID = ID;
         this.IP = IP;
